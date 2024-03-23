@@ -1,0 +1,25 @@
+.topic {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 1rem;
+    transition: 0.15s all ease-in-out;
+    cursor: pointer;
+    background-color: var(--bg_default);
+    border-right: 1px solid var(--lines-color);
+    border-left: 1px solid var(--lines-color);
+    border-top: 1px solid transparent;
+}
+
+.topic svg {
+    aspect-ratio: 1 / 1;
+    width: 20px;
+    height: 20px;
+    fill: var(--brand-secondary);
+}
+
+.topic:hover {
+    transform: translateX(0.25em) translateY(-0.25em);
+    background-color: var(--bg_body);
+    border-top-color: var(--lines-color);
+}

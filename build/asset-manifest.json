@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/firas-mohanna-project-1/static/css/main.3b4e965d.css",
+    "main.js": "/firas-mohanna-project-1/static/js/main.2f9bccd2.js",
+    "static/js/453.113e9f83.chunk.js": "/firas-mohanna-project-1/static/js/453.113e9f83.chunk.js",
+    "index.html": "/firas-mohanna-project-1/index.html",
+    "main.3b4e965d.css.map": "/firas-mohanna-project-1/static/css/main.3b4e965d.css.map",
+    "main.2f9bccd2.js.map": "/firas-mohanna-project-1/static/js/main.2f9bccd2.js.map",
+    "453.113e9f83.chunk.js.map": "/firas-mohanna-project-1/static/js/453.113e9f83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4e965d.css",
+    "static/js/main.2f9bccd2.js"
+  ]
+}
