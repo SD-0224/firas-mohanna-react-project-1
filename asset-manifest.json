@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b4e965d.css",
-    "main.js": "/static/js/main.c56e9b8e.js",
-    "static/js/453.113e9f83.chunk.js": "/static/js/453.113e9f83.chunk.js",
-    "index.html": "/index.html",
-    "main.3b4e965d.css.map": "/static/css/main.3b4e965d.css.map",
-    "main.c56e9b8e.js.map": "/static/js/main.c56e9b8e.js.map",
-    "453.113e9f83.chunk.js.map": "/static/js/453.113e9f83.chunk.js.map"
+    "main.css": "/firas-mohanna-react-project-1/static/css/main.3b4e965d.css",
+    "main.js": "/firas-mohanna-react-project-1/static/js/main.4b3314c4.js",
+    "static/js/453.113e9f83.chunk.js": "/firas-mohanna-react-project-1/static/js/453.113e9f83.chunk.js",
+    "index.html": "/firas-mohanna-react-project-1/index.html",
+    "main.3b4e965d.css.map": "/firas-mohanna-react-project-1/static/css/main.3b4e965d.css.map",
+    "main.4b3314c4.js.map": "/firas-mohanna-react-project-1/static/js/main.4b3314c4.js.map",
+    "453.113e9f83.chunk.js.map": "/firas-mohanna-react-project-1/static/js/453.113e9f83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4e965d.css",
-    "static/js/main.c56e9b8e.js"
+    "static/js/main.4b3314c4.js"
   ]
 }
