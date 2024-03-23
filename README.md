@@ -1,3 +1,5 @@
+# Live link of the project
+[Live link](https://firas-mohanna-react-project-1.onrender.com/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
