@@ -5,19 +5,23 @@ import { Link } from 'react-router-dom';
 export function FavouriteBanner({ isVisible }) {
 
     const [dataArr, setDataArr] = useState([]);
+
     useEffect(() => {
         fetch('https://tap-web-1.herokuapp.com/topics/list')
             .then(response => response.json())
             .then((json) => {
                 setDataArr([...json]);
             })
-    }, [dataArr])
+    }, [])
 
-    const filterArray = window.localStorage.getItem("FavouriteCourses");
+
+    let FavouriteCourses = JSON.parse(window.localStorage.getItem("FavouriteCourses"));
+    FavouriteCourses = FavouriteCourses.map(e => Number(e));
+
     let filteredData;
 
-    if (filterArray) {
-        filteredData = dataArr.filter(item => filterArray.includes(item.id.toString()));
+    if (FavouriteCourses) {
+        filteredData = dataArr.filter(item => FavouriteCourses.includes(item.id));
     } else {
         filteredData = [];
     }

@@ -5,13 +5,14 @@ import { CourseCard } from '../shared/components/CourseCard/CourseCard';
 import { Topic } from '../shared/components/Topic/Topic';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
-export function Details() {
+export function Details({ updateBanner }) {
     let param = useParams();
 
     const [selectedCourse, setSelectedCourse] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
     const courseSubTopics = selectedCourse.subtopics;
+
     useEffect(() => {
         fetch(`https://tap-web-1.herokuapp.com/topics/details/${param.courseId}`)
             .then(res => res.json())
@@ -20,6 +21,8 @@ export function Details() {
                 setIsLoading(false);
             })
     }, [param]);
+
+
     return (
         <>
             {isLoading && <p>Laoding...</p>}
@@ -49,7 +52,7 @@ export function Details() {
                             <p>{selectedCourse.description}
                             </p>
                         </div>
-                        <CourseCard author={selectedCourse.name} courseName={selectedCourse.topic} imgPath={selectedCourse.image} />
+                        <CourseCard author={selectedCourse.name} courseName={selectedCourse.topic} imgPath={selectedCourse.image} updateBanner={updateBanner} />
                     </section>
                     <div className={styles.topics}>
                         <span className={`${styles.coureseTopicsText} ${topicStyles.topic}`}>{selectedCourse.topic} Sub Topics</span>

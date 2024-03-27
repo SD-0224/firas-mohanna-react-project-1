@@ -24,7 +24,6 @@
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 30px;
     max-height: 200px;
     overflow: auto;

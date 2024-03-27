@@ -1,4 +1,3 @@
-
 import './App.css';
 
 // React router
@@ -17,14 +16,18 @@ import { useState } from 'react';
 function App() {
 
   const [isBannerVisible, setIsBannerVisible] = useState(false);
+  const [count, setCount] = useState(true);
 
   const toggleBanner = () => {
     setIsBannerVisible(!isBannerVisible);
   };
 
+  const updateBanner = () => {
+    setCount(!count)
+  }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/firas-mohanna-react-project-1">
       <Header toggleBanner={toggleBanner} />
       <Banner />
       <main class="main-content" style={{ position: 'relative' }}>
@@ -32,7 +35,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/course-details/:courseId">
-          <Details />
+          <Details updateBanner={updateBanner} />
         </Route>
       </main>
       <FavouriteBanner isVisible={isBannerVisible} />
