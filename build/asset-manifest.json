@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/firas-mohanna-react-project-1/static/css/main.c91df1a8.css",
-    "main.js": "/firas-mohanna-react-project-1/static/js/main.5be55dd1.js",
+    "main.js": "/firas-mohanna-react-project-1/static/js/main.59e52bc1.js",
     "static/js/453.113e9f83.chunk.js": "/firas-mohanna-react-project-1/static/js/453.113e9f83.chunk.js",
     "index.html": "/firas-mohanna-react-project-1/index.html",
     "main.c91df1a8.css.map": "/firas-mohanna-react-project-1/static/css/main.c91df1a8.css.map",
-    "main.5be55dd1.js.map": "/firas-mohanna-react-project-1/static/js/main.5be55dd1.js.map",
+    "main.59e52bc1.js.map": "/firas-mohanna-react-project-1/static/js/main.59e52bc1.js.map",
     "453.113e9f83.chunk.js.map": "/firas-mohanna-react-project-1/static/js/453.113e9f83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c91df1a8.css",
-    "static/js/main.5be55dd1.js"
+    "static/js/main.59e52bc1.js"
   ]
 }
