@@ -10,7 +10,7 @@ import { Header } from './shared/components/Header/Header.js';
 import { Banner } from "./shared/components/Banner/Banner.js";
 import { Footer } from "./shared/components/Footer/Footer.js";
 import { FavouriteBanner } from './shared/components/FavouriteBanner/FavouriteBanner.js';
-// useEffect
+// useState
 import { useState } from 'react';
 
 function App() {

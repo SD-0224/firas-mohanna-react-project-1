@@ -15,8 +15,15 @@ export function FavouriteBanner({ isVisible }) {
     }, [])
 
 
-    let FavouriteCourses = JSON.parse(window.localStorage.getItem("FavouriteCourses"));
-    FavouriteCourses = FavouriteCourses.map(e => Number(e));
+    let FavouriteCourses = window.localStorage.getItem("FavouriteCourses");
+    if (FavouriteCourses) {
+        try {
+            FavouriteCourses = JSON.parse(FavouriteCourses);
+            FavouriteCourses = FavouriteCourses?.map(e => Number(e));
+        } catch (error) {
+            console.error("Error parsing JSON:", error);
+        }
+    }
 
     let filteredData;
 

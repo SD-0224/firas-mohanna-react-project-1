@@ -19,7 +19,7 @@ export function Home() {
                 setDataArr([...json]);
                 setSortedData([...json]);
                 setIsLoading(false);
-            })
+            })    
     }, [])
 
     const handleSearchChange = (event) => {
